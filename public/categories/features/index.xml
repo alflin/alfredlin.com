@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on Alfred E. Lin</title>
+    <link>http://alfredlin.com/categories/features/</link>
+    <description>Recent content in Features on Alfred E. Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://alfredlin.com/categories/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elements showcase</title>
+      <link>http://alfredlin.com/2015/05/elements-showcase/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredlin.com/2015/05/elements-showcase/</guid>
+      <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>中文測試</title>
+      <link>http://alfredlin.com/2013/10/chinese-test/</link>
+      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredlin.com/2013/10/chinese-test/</guid>
+      <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

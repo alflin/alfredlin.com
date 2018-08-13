@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Alfred E. Lin</title>
+    <link>http://alfredlin.com/categories/</link>
+    <description>Recent content in Categories on Alfred E. Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://alfredlin.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Features</title>
+      <link>http://alfredlin.com/categories/features/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredlin.com/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notes</title>
+      <link>http://alfredlin.com/categories/notes/</link>
+      <pubDate>Thu, 05 Apr 2018 22:19:44 +0800</pubDate>
+      
+      <guid>http://alfredlin.com/categories/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tranquilpeak</title>
+      <link>http://alfredlin.com/categories/tranquilpeak/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredlin.com/categories/tranquilpeak/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

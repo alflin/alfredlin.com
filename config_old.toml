@@ -1,0 +1,57 @@
+baseURL = "http://example.org/"
+title = "Alfred Lin"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 10
+
+#SectionPagesMenu = "main"
+
+
+[params]
+  title       = "Alfred Lin"
+  subtitle    = "Hello World"
+
+  cover       = "img/blog-cover.jpg"
+  description = "A place where I put all my work"
+  metaDescription = ""
+  googleAnalytics = "UA-116908965-1"
+  customCSS = []
+  RSSLink = ""
+  linkedinName = "alfredelin"
+  githubName = "alflin"
+
+  #logo = "hugo-logo.png"
+  orgName = "Alfred Lin"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Alfred Lin"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "SG"
+  authorWebsite = "alfredlin.com"
+  authorDescription = "Hi I'm Alfred"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Broken Link ATM"
+  url = "shiny.alfredlin.com"
+  weight = 95
+
+
+
+
+
+
