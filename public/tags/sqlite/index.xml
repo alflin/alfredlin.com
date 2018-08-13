@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlite on Alfred E. Lin</title>
+    <link>http://alfredlin.com/tags/sqlite/</link>
+    <description>Recent content in Sqlite on Alfred E. Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jul 2018 22:40:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://alfredlin.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Map Marker Web App</title>
+      <link>http://alfredlin.com/2018/07/map-marker-web-app/</link>
+      <pubDate>Thu, 05 Jul 2018 22:40:11 +0800</pubDate>
+      
+      <guid>http://alfredlin.com/2018/07/map-marker-web-app/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A Webapp created from Shiny framework written in R that allows for the user to view/add/delete markers on a map.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://alfredlin.com/2018/04/crowdsourcing-password-webapp/</loc>
-    <lastmod>2018-04-05T22:40:11+08:00</lastmod>
+    <loc>http://alfredlin.com/2018/07/map-marker-web-app/</loc>
+    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://alfredlin.com/2018/04/map-marker-web-app/</loc>
+    <loc>http://alfredlin.com/2018/04/crowdsourcing-password-webapp/</loc>
     <lastmod>2018-04-05T22:40:11+08:00</lastmod>
   </url>
   
@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>http://alfredlin.com/2015/05/elements-showcase/</loc>
+    <loc>http://alfredlin.com/2015/05/personal-notes---elements-showcase/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,7 +39,7 @@
   
   <url>
     <loc>http://alfredlin.com/</loc>
-    <lastmod>2018-04-05T22:40:11+08:00</lastmod>
+    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -55,24 +55,6 @@
   </url>
   
   <url>
-    <loc>http://alfredlin.com/categories/features/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alfredlin.com/tags/html-elements/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alfredlin.com/tags/markdown/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://alfredlin.com/categories/notes/</loc>
     <lastmod>2018-04-05T22:19:44+08:00</lastmod>
     <priority>0</priority>
@@ -80,19 +62,31 @@
   
   <url>
     <loc>http://alfredlin.com/post/</loc>
-    <lastmod>2018-04-05T22:40:11+08:00</lastmod>
+    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alfredlin.com/categories/projects/</loc>
+    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alfredlin.com/tags/r_showcase/</loc>
+    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alfredlin.com/tags/sqlite/</loc>
+    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://alfredlin.com/tags/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alfredlin.com/categories/tranquilpeak/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

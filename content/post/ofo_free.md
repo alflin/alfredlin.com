@@ -2,6 +2,11 @@
 title: "Crowdsourcing Password Webapp"
 date: 2018-04-05T22:40:11+08:00
 
+categories:
+- projects
+tags:
+- R_showcase
+
 thumbnailImagePosition: left
 thumbnailImage: ./free_ofo/ofo_lock.png
 image: free_ofo/ofo_lock.png

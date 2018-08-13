@@ -1,17 +1,13 @@
 ---
-title: "Elements showcase"
+title: "Personal Notes - Elements showcase"
 date: 2015-05-28
 categories:
-- tranquilpeak
-- features
-tags:
-- html elements
-- markdown
+- notes
 thumbnailImagePosition: left
 thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/elements-showcase/vintage-140.jpg
 ---
 
-Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It's simple and elegant.
+Keeping a post with the elements showcase for my own personal reference when making a new post!
 <!--more-->
 
 # Heading 1

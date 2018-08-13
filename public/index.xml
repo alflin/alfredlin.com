@@ -6,10 +6,21 @@
     <description>Recent content on Alfred E. Lin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Apr 2018 22:40:11 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jul 2018 22:40:11 +0800</lastBuildDate>
     
 	<atom:link href="http://alfredlin.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Map Marker Web App</title>
+      <link>http://alfredlin.com/2018/07/map-marker-web-app/</link>
+      <pubDate>Thu, 05 Jul 2018 22:40:11 +0800</pubDate>
+      
+      <guid>http://alfredlin.com/2018/07/map-marker-web-app/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A Webapp created from Shiny framework written in R that allows for the user to view/add/delete markers on a map.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Crowdsourcing Password Webapp</title>
@@ -19,17 +30,6 @@
       <guid>http://alfredlin.com/2018/04/crowdsourcing-password-webapp/</guid>
       <description>&lt;p&gt;I developed a quick and dirty shiny web app that allowed users to crowd source usernames and passwords for the Ofo manual lock bikes.
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Map Marker Web App</title>
-      <link>http://alfredlin.com/2018/04/map-marker-web-app/</link>
-      <pubDate>Thu, 05 Apr 2018 22:40:11 +0800</pubDate>
-      
-      <guid>http://alfredlin.com/2018/04/map-marker-web-app/</guid>
-      <description>&lt;p&gt;&lt;em&gt;A Webapp created from Shiny framework written in R that allows for the user to view/add/delete markers on a map.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,12 +54,12 @@ Definitely smarter ways to do it, but this is the quick and dirty way without br
     </item>
     
     <item>
-      <title>Elements showcase</title>
-      <link>http://alfredlin.com/2015/05/elements-showcase/</link>
+      <title>Personal Notes - Elements showcase</title>
+      <link>http://alfredlin.com/2015/05/personal-notes---elements-showcase/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://alfredlin.com/2015/05/elements-showcase/</guid>
-      <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.
+      <guid>http://alfredlin.com/2015/05/personal-notes---elements-showcase/</guid>
+      <description>&lt;p&gt;Keeping a post with the elements showcase for my own personal reference when making a new post!
 &lt;/p&gt;</description>
     </item>
     
@@ -74,12 +74,12 @@ I&amp;rsquo;m from Canada, currently living in Singapore!</description>
     </item>
     
     <item>
-      <title>中文測試</title>
+      <title>Personal Notes - 中文測試</title>
       <link>http://alfredlin.com/2013/10/chinese-test/</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
       <guid>http://alfredlin.com/2013/10/chinese-test/</guid>
-      <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.
+      <description>&lt;p&gt;Example post for chinese elements for personal use
 &lt;/p&gt;</description>
     </item>
     
