@@ -10,7 +10,6 @@ tags:
 
 thumbnailImagePosition: left
 thumbnailImage: ./ofo_map/ofo_map.png
-image: ofo_map/ofo_map.png
 metaAlignment: left
 draft: false
 ---

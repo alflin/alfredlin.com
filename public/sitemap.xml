@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://alfredlin.com/2018/08/crypto-futures-premium-dashboard/</loc>
+    <lastmod>2018-08-01T22:40:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alfredlin.com/2018/07/map-marker-web-app/</loc>
     <lastmod>2018-07-05T22:40:11+08:00</lastmod>
   </url>
@@ -39,7 +44,7 @@
   
   <url>
     <loc>http://alfredlin.com/</loc>
-    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
+    <lastmod>2018-08-01T22:40:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,19 +67,31 @@
   
   <url>
     <loc>http://alfredlin.com/post/</loc>
-    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
+    <lastmod>2018-08-01T22:40:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://alfredlin.com/categories/projects/</loc>
-    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
+    <lastmod>2018-08-01T22:40:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alfredlin.com/tags/python/</loc>
+    <lastmod>2018-08-01T22:40:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://alfredlin.com/tags/r_showcase/</loc>
-    <lastmod>2018-07-05T22:40:11+08:00</lastmod>
+    <lastmod>2018-08-01T22:40:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alfredlin.com/tags/rest/</loc>
+    <lastmod>2018-08-01T22:40:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   

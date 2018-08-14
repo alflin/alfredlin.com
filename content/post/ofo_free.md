@@ -14,17 +14,14 @@ metaAlignment: center
 draft: false
 ---
 
-I developed a quick and dirty shiny web app that allowed users to crowd source usernames and passwords for the Ofo manual lock bikes.
+*I developed a quick and dirty shiny web app that allowed users to crowd source usernames and passwords for the Ofo manual lock bikes.*
 <!--more-->
 
 ![alt text](/free_ofo/freeofo.gif "app")
 
-
-Tech Stack Used: R, Shiny, Nginx 
-
-Link: [http://shiny2.alfredlin.com/posts/ofo_free/](http://shiny.alfredlin.com/posts/ofo_free/)
-
-Github: [https://github.com/alflin/ofo_free](https://github.com/alflin/ofo_free)
+- Tech Stack Used: R, Shiny, Nginx 
+- Link: [http://shiny2.alfredlin.com/posts/ofo_free/](http://shiny.alfredlin.com/posts/ofo_free/)
+- Github: [https://github.com/alflin/ofo_free](https://github.com/alflin/ofo_free)
 
 # Background
 

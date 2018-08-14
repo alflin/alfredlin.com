@@ -22,7 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.31.1 with theme Tranquilpeak 0.4.3-BETA">
-    <title>Personal Notes - Quick steps to use Git</title>
+    <title>Crypto Futures Premium Dashboard</title>
     <meta name="author" content="Alfred E. Lin">
     <meta name="keywords" content=", alfred lin, analytics, uber">
 
@@ -30,20 +30,20 @@
     
 
     
-    <meta name="description" content="This is just a quick post for me to remind myself how to use git on terminal.
-Definitely smarter ways to do it, but this is the quick and dirty way without branches etc.
+    <meta name="description" content="A Shiny dashboard that pulls crypto futures premium from okex&rsquo;s APIs
+
 ">
-    <meta property="og:description" content="This is just a quick post for me to remind myself how to use git on terminal.
-Definitely smarter ways to do it, but this is the quick and dirty way without branches etc.
+    <meta property="og:description" content="A Shiny dashboard that pulls crypto futures premium from okex&rsquo;s APIs
+
 ">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Personal Notes - Quick steps to use Git">
-    <meta property="og:url" content="/2017/08/personal-notes---quick-steps-to-use-git/">
+    <meta property="og:title" content="Crypto Futures Premium Dashboard">
+    <meta property="og:url" content="/2018/08/crypto-futures-premium-dashboard/">
     <meta property="og:site_name" content="Alfred E. Lin">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Alfred E. Lin">
-    <meta name="twitter:description" content="This is just a quick post for me to remind myself how to use git on terminal.
-Definitely smarter ways to do it, but this is the quick and dirty way without branches etc.
+    <meta name="twitter:description" content="A Shiny dashboard that pulls crypto futures premium from okex&rsquo;s APIs
+
 ">
     
       <meta name="twitter:creator" content="@alflin">
@@ -58,7 +58,7 @@ Definitely smarter ways to do it, but this is the quick and dirty way without br
     
 
     
-      <meta property="og:image" content="http://alfredlin.com/img/git.jpg">
+      <meta property="og:image" content="http://alfredlin.com/crypto_prem/thumb.png">
     
     
     
@@ -233,15 +233,15 @@ ga('send', 'pageview');
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      Personal Notes - Quick steps to use Git
+      Crypto Futures Premium Dashboard
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2017-08-16T09:53:28Z">
+      <time itemprop="datePublished" datetime="2018-08-01T22:40:11&#43;08:00">
         
-  August 16, 2017
+  August 1, 2018
 
       </time>
     
@@ -250,7 +250,7 @@ ga('send', 'pageview');
   
     <span>in</span>
     
-      <a class="category-link" href="http://alfredlin.com/categories/notes">notes</a>
+      <a class="category-link" href="http://alfredlin.com/categories/projects">projects</a>
     
   
 
@@ -260,100 +260,108 @@ ga('send', 'pageview');
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>This is just a quick post for me to remind myself how to use git on terminal.
-Definitely smarter ways to do it, but this is the quick and dirty way without branches etc.
-</p>
+              <p><em>A Shiny dashboard that pulls crypto futures premium from okex&rsquo;s APIs</em></p>
 
-<h1 id="tabbed-code-block">Tabbed code block</h1>
+<p></p>
 
-<p>Update from Repo:
+<h1 id="background">Background</h1>
 
-  
-  
-  
-  
+<p>I&rsquo;m an avid crypto-enthuaist. With the recent price movements, I&rsquo;ve been trying to follow the futures premium movements but there was no open source easy way to look at premiums, so I decided to build my own dashboard to pull real-time data.</p>
 
+<ul>
+<li>Tech Stack Used: Python (Data Pipeline), R, Shiny, Nginx</li>
+<li>Demo: <a href="http://shiny2.alfredlin.com/posts/cyp/crypto_premium_shiny/">http://shiny2.alfredlin.com/posts/cyp/crypto_premium_shiny/</a></li>
+<li>Github: <a href="https://github.com/alflin/crypto_premium_python">https://github.com/alflin/crypto_premium_python</a></li>
+</ul>
 
-<figure class="highlight  language-">
-  <figcaption>
-    
-  </figcaption>
-  <table>
-    <tbody>
-      <tr>
-        <td class="gutter">
-          <pre><span class="line">1</span><br></pre>
-        </td>
-        <td class="code">
-          <pre class="code-highlight language-"><code class="">$git pull</code></pre>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</figure></p>
+<p><img src="http://alfredlin.com/crypto_prem/main_dash.png" alt="alt text" title="app" /></p>
 
-<p>Code code code
+<h5 id="the-app">The App:</h5>
 
-  
-  
-  
-  
+<p>Pretty self-explanatory. There&rsquo;s a button on the sidebar menu that downloads the most recent futures data from OKEX exchange. Afterwards the premiums for all crypto-premiums are calculated and displayed. The top 9 squares show the top 3 trading pairs from the three different duration contracts available on okex&rsquo;s platform.</p>
 
+<p>The table below is a combination of the raw data plus some computing metrics of all the futures data available.</p>
 
-<figure class="highlight  language-">
-  <figcaption>
-    
-  </figcaption>
-  <table>
-    <tbody>
-      <tr>
-        <td class="gutter">
-          <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
-        </td>
-        <td class="code">
-          <pre class="code-highlight language-"><code class="">$git checkout
-$git add xxxxxx or $git add .</code></pre>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</figure></p>
+<p>I wont be going into the details of how the math works for futures premium as I assume the reader will understand how the calculations are made. Instead, I&rsquo;ll focus on the process of what I did to get the data below.</p>
 
-<p>Final Step:
+<p><img src="http://alfredlin.com/crypto_prem/table.png" alt="alt text" title="app" /></p>
 
-  
-  
-  
-  
+<h1 id="data-pipeline"><em>Data Pipeline</em></h1>
 
+<h4 id="python-pull">Python Pull</h4>
 
-<figure class="highlight  language-">
-  <figcaption>
-    
-  </figcaption>
-  <table>
-    <tbody>
-      <tr>
-        <td class="gutter">
-          <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
-        </td>
-        <td class="code">
-          <pre class="code-highlight language-"><code class="">$git commit -m &#39;message&#39;
-$git push origin master</code></pre>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</figure></p>
+<p>The getting the data pipline to work was what took the most time for me in this project.</p>
 
-<p>Then repeat.</p>
+<p>Luckily to pull trading data, I only needed to use the REST APIs (no websocket funky business). Looking through the okex documentation was pretty straight forward, but making sure I had the right data format pulled out properly and parsing is what took the longest.</p>
 
-<p><a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging">Also very good resource</a></p>
+<p>Here&rsquo;s an example of my cleaning function to pull the data properly:</p>
+
+<pre><code class="language-python">def fclean(import_data):
+	#takes data and cleans and exports data as pandas
+	export_data = []
+	for x in range(0,len(import_data)):
+		entry = {
+			'futures_ticker': import_data[x]['futures_ticker'],
+			'fdate': import_data[x]['fdate'],
+			'fdatetime': timeit(import_data[x]['response']['date']),
+			'fsystime': timeit(time.time()),
+			'future_last': import_data[x]['response']['ticker']['last']
+			}
+		export_data.append(entry)
+
+	return pd.DataFrame(export_data)
+</code></pre>
+
+<p>As usual, I used the pandas library to do all my data manipulation and data munging at the end to calculate the premiums.</p>
+
+<pre><code class="language-python">df = sdf.merge(fdf, how='inner', left_on = 'spot_ticker',right_on = 'futures_ticker')
+df[['spot_last','future_last']] = df[['spot_last','future_last']].apply(pd.to_numeric)	
+df['premium'] = (df['future_last'] - df['spot_last']) / df['spot_last']
+</code></pre>
+
+<p>OKex API documentation comes in English and Chinese!
+<img src="http://alfredlin.com/crypto_prem/api.png" alt="alt text" title="app" /></p>
+
+<h1 id="front-end"><em>Front End</em></h1>
+
+<h4 id="putting-it-all-together">Putting it all together</h4>
+
+<p>I just simply used the <em>shinydashboard</em> package to display all the metrics is a not so ugly format. Nothing too special here, just a datatable render for the raw data and some valueboxes at the top to highlight the highest premium trading pairs.</p>
+
+<p>The only thing I&rsquo;d highlight is calling the python script to hit hte okex API with the download button. Since I originally started building the script in python I didn&rsquo;t want to redo it all in R, so I used the python package <em>reticulate</em> to use the script.</p>
+
+<p>I came into some trouble since it was my first time using the package, but quickly I learned I had to initate a virtual environment within the shiny environment first before I could use the python script properly.</p>
+
+<p>Here&rsquo;s an excerpt of the code:</p>
+
+<pre><code class="language-R">observeEvent(input$download, {
+    withProgress(message = 'Downloading new Data', value = 0, {      
+      use_virtualenv('./venv', required = TRUE)     
+      okex &lt;- import_from_path('okex', path = &quot;.&quot;, convert = TRUE)
+      okex$csv_update_current()      
+      output$msg &lt;- renderText({&quot;finished downloading&quot;})      
+      invalidater$v &lt;- invalidater$v + 1      
+    })
+</code></pre>
               
             </div>
           </div>
           <div id="post-footer" class="post-footer main-content-wrap">
             
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="http://alfredlin.com/tags/r_showcase/">R_showcase</a>
+
+  <a class="tag tag--primary tag--small" href="http://alfredlin.com/tags/python/">Python</a>
+
+  <a class="tag tag--primary tag--small" href="http://alfredlin.com/tags/rest/">REST</a>
+
+                  </div>
+                
               
             
             
@@ -363,7 +371,7 @@ $git push origin master</code></pre>
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://alfredlin.com/2018/04/personal-notes---quick-nginx/" data-tooltip="Personal Notes - Quick Nginx">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -371,7 +379,7 @@ $git push origin master</code></pre>
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://alfredlin.com/2015/05/personal-notes---elements-showcase/" data-tooltip="Personal Notes - Elements showcase">
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://alfredlin.com/2018/07/map-marker-web-app/" data-tooltip="Map Marker Web App">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -389,19 +397,19 @@ $git push origin master</code></pre>
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://alfredlin.com/2017/08/personal-notes---quick-steps-to-use-git/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://alfredlin.com/2018/08/crypto-futures-premium-dashboard/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://alfredlin.com/2017/08/personal-notes---quick-steps-to-use-git/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://alfredlin.com/2018/08/crypto-futures-premium-dashboard/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://alfredlin.com/2017/08/personal-notes---quick-steps-to-use-git/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://alfredlin.com/2018/08/crypto-futures-premium-dashboard/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -439,7 +447,7 @@ $git push origin master</code></pre>
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://alfredlin.com/2018/04/personal-notes---quick-nginx/" data-tooltip="Personal Notes - Quick Nginx">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -447,7 +455,7 @@ $git push origin master</code></pre>
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://alfredlin.com/2015/05/personal-notes---elements-showcase/" data-tooltip="Personal Notes - Elements showcase">
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://alfredlin.com/2018/07/map-marker-web-app/" data-tooltip="Map Marker Web App">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -465,19 +473,19 @@ $git push origin master</code></pre>
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://alfredlin.com/2017/08/personal-notes---quick-steps-to-use-git/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://alfredlin.com/2018/08/crypto-futures-premium-dashboard/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://alfredlin.com/2017/08/personal-notes---quick-steps-to-use-git/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://alfredlin.com/2018/08/crypto-futures-premium-dashboard/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://alfredlin.com/2017/08/personal-notes---quick-steps-to-use-git/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://alfredlin.com/2018/08/crypto-futures-premium-dashboard/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -501,19 +509,19 @@ $git push origin master</code></pre>
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Falfredlin.com%2F2017%2F08%2Fpersonal-notes---quick-steps-to-use-git%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Falfredlin.com%2F2018%2F08%2Fcrypto-futures-premium-dashboard%2F">
           <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3A%2F%2Falfredlin.com%2F2017%2F08%2Fpersonal-notes---quick-steps-to-use-git%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3A%2F%2Falfredlin.com%2F2018%2F08%2Fcrypto-futures-premium-dashboard%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http%3A%2F%2Falfredlin.com%2F2017%2F08%2Fpersonal-notes---quick-steps-to-use-git%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http%3A%2F%2Falfredlin.com%2F2018%2F08%2Fcrypto-futures-premium-dashboard%2F">
           <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
         </a>
       </li>
